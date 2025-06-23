@@ -1,5 +1,5 @@
-import { appPage } from '../../pages/appPage';
-import { checkAppLoaded, visitApp } from '../../support/commands/common';
+import { appPage } from '~/pages/appPage';
+import { checkAppLoaded, visitApp } from '~/support/commands/common';
 
 describe('TrustyAI Dashboard - Smoke Tests', () => {
   beforeEach(() => {
